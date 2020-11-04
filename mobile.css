@@ -164,6 +164,9 @@
         width: 50vw;
         margin: auto;
     }
+    .food-item {
+        background: white;
+    }
     .play {
         height: 50px;
         width: 50px;
