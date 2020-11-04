@@ -200,7 +200,9 @@ a {
 .food-item {
     height: 260px;
     box-shadow: 0px 1px 20px 0px #00000040;
-    width: 300px;
+    width: 400px;
+    max-width: 500px;
+    flex-grow: 1;
     border-radius: 10px;
     margin: 17px;
 }
@@ -214,7 +216,7 @@ a {
 
 .food-item .img {
     height: 190px;
-    width: 300px;
+    width: 100%;
     border-radius: 10px 10px 0px 0px;
     background: url(./img/pexels-ella-olsson-1640777.jpg) no-repeat center center/cover;
 }
