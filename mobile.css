@@ -1,7 +1,6 @@
 @media only screen and (max-width: 600px) {
     body {
         color: black;
-        /* background: rgb(31, 31, 54); */
     }
     #logo h1 span {
         font-weight: bold;
@@ -19,14 +18,18 @@
         margin-top: 40px;
     }
     .txt h1 {
+        margin-right: 10px;
         font-size: 23px;
         font-weight: bold;
+    }
+    .txt p {
+        margin: 10px;
     }
     #front-page {
         height: 75vh;
     }
     .btnbox {
-        margin-top: 0;
+        margin-top: 70px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -58,7 +61,7 @@
         transform: translate(0);
         display: flex;
         margin: auto;
-        width: 90vw;
+        width: fit-content;
     }
     .top-menu {
         display: flex;
@@ -90,7 +93,7 @@
         height: fit-content;
     }
     .texxt p {
-        font-size: 10px;
+        font-size: 12px;
         margin-top: 10px;
     }
     .texxt h1 {
@@ -122,7 +125,7 @@
         font-weight: bold;
     }
     #email {
-        background: white;
+        /* background: white; */
         width: 100vw;
         text-align: center;
     }
@@ -143,8 +146,6 @@
         border-radius: 10px;
     }
     #footer {
-        height: 30vh;
-        width: 80vw;
         margin: auto;
         text-align: center;
         justify-content: center;
@@ -156,6 +157,9 @@
     }
     #footer #navbar .flex .item {
         margin: 8px 5px;
+    }
+    #food .foode-title {
+        margin-top: 100px;
     }
     .qm {
         padding-top: 40px;
