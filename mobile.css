@@ -8,6 +8,10 @@
         font-size: larger;
         color: orangered;
     }
+    .item {
+        font-size: 15px;
+        margin: 10px;
+    }
     .txt {
         margin: auto;
         width: 90vw;
@@ -75,9 +79,15 @@
         width: 60vw;
         height: 200px;
     }
+    .btn-main {
+        border-radius: 6px;
+        margin-top: 12px;
+        padding: 6px 8px;
+    }
     .texxt {
         padding-top: 25px;
         width: 80vw;
+        height: fit-content;
     }
     .texxt p {
         font-size: 10px;
@@ -151,5 +161,11 @@
         padding-top: 40px;
         width: 50vw;
         margin: auto;
+    }
+    .play {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        padding-left: 17px;
     }
 }

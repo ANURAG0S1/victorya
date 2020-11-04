@@ -17,7 +17,7 @@ body {
 body,
 input,
 button {
-    font-size: 14px;
+    font-size: 16px;
     font-family: poppins;
 }
 
@@ -67,8 +67,8 @@ a {
 }
 
 .item {
-    /* line-height: 100px; */
-    margin: 12px 8px;
+    font-size: 19px;
+    margin: 1px 23px;
 }
 
 .txt {
@@ -82,7 +82,7 @@ a {
 }
 
 .txt p {
-    font-size: 13px;
+    font-size: 16px;
 }
 
 .btnbox {
@@ -125,7 +125,7 @@ a {
 }
 
 .l-img {
-    height: calc(100vh - 64px);
+    height: 65vh;
     width: 350px;
     background: url(./img/pexels-chevanon-photography-323682.jpg) no-repeat center center/cover;
     border-radius: 40px 0px 40px 0px;
@@ -158,12 +158,12 @@ a {
     margin: auto;
     height: 400px;
     width: 80vw;
+    box-shadow: 1px 1px 50px -6px black;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     border-radius: 40px;
     text-align: center;
-    transform: translateY(-40px);
     background: rgba(0, 0, 0, 0.527) url(./img//pexels-chokniti-khongchum-2280569.jpg) no-repeat center/cover;
 }
 
@@ -209,7 +209,7 @@ a {
     display: flex;
     padding: 0px 10px;
     margin-top: 8px;
-    /* justify-content: space-evenly; */
+    justify-content: space-between;
 }
 
 .food-item .img {
@@ -233,7 +233,7 @@ a {
 .food-item .description {
     padding: 0px 10px;
     text-align: left;
-    font-size: 11px;
+    font-size: 12px;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Raleway);
@@ -400,7 +400,8 @@ body {
 }
 
 .texxt {
-    padding-top: 160px;
+    padding-top: 60px;
+    height: 60vh;
 }
 
 .texxt p {
@@ -423,14 +424,23 @@ body {
 
 #footer {
     height: 40vh;
-    margin-left: -22vw;
-    width: 50vw;
+    margin-left: -28vw;
+    width: 60vw;
+}
+
+#footer #navbar ul {
+    margin-left: -13px;
+}
+
+#footer #navbar ul .item {
+    margin: 1px 10px;
 }
 
 .qm {
     display: flex;
     flex-direction: row;
     height: 30px;
+    margin-bottom: 80px;
 }
 
 .qmark {
